@@ -1,11 +1,15 @@
 #include "sort.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 /**
 * TDMerge - sorts and merges the sub arrays
 * @start: starting index
 * @middle: end index
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 * @end: end index
 * @dest: destination for the data
 * @source: source of the data
