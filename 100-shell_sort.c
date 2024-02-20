@@ -1,10 +1,16 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 void insertion_sort(int *, long int, long int, size_t);
 
 /**
 * shell_sort - shell sort algorithm
 *
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 * @array: array to sort
 * @size: size of array
 */
