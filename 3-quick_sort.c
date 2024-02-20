@@ -1,10 +1,16 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 
 /**
  * partition - sort an array of integers using quick_sort
  *		lomuto implementation with pivot in last element of partition
  * @array: array to sort
+ * name - Bruno  Owino
+ * email - brunookoth44@gmail.com
  * @min: minimum value
  * @max: max value
  * @size: the size of the array to sort
