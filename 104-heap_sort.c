@@ -1,9 +1,14 @@
 #include "sort.h"
-
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdio.h>
 /**
 * sift_down - fixes a heap
 * @array: the heap to be fixed
 * @root: root of heap
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 * @end: ;ast index of the heap
 * @size: size of the array
 */
