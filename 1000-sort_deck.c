@@ -8,6 +8,8 @@
 * @str:  value of the card
 *
 * Return: relative value of the card (0 through 12)
+* email - brunookoth44@gmail.com
+* name - Bruno  Owino
 */
 int get_val(const char *str)
 {
