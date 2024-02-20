@@ -1,9 +1,15 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 void swap(int *a, int *b);
 /**
  * bubble_sort - sort an array of integer in ascending order
  * @array: the array to order and print
  * @size: size of array to order
+ * name - Bruno  Owino
+ * email - brunookoth44@gmail.com
  */
 void bubble_sort(int *array, size_t size)
 {
