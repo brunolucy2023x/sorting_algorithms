@@ -1,10 +1,16 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 void move_left(listint_t *curr, listint_t *prev, listint_t **head);
 
 /**
 * cocktail_sort_list - coctail sort in doubly linked list
 * @list: A Doubly linked list
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 */
 
 void cocktail_sort_list(listint_t **list)
