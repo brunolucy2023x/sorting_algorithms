@@ -1,8 +1,14 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 /**
 * bitonic_compare - sort bitonic algorithm
 * @up: direction of sorting
 * @array: sub-array to sort
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 * @size: size of the sub-array
 */
 void bitonic_compare(char up, int *array, size_t size)
