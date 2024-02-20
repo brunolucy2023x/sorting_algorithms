@@ -1,10 +1,16 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 /**
 * partition - quicksort using Hoare version
 * @array: array to sort
 * @min: lowest index
 * @max: highest index
 * @size: size of the array
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 *
 * Return: partition index
 */
