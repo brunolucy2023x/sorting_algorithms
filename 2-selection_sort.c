@@ -5,7 +5,7 @@
 #include <unistd.h>
 /**
  * selection_sort - sort an array of integers using selection sort
- *
+ * name - Bruno  Owino
  * @array: the array to order
  * @size: the siz of the array to order
  */
