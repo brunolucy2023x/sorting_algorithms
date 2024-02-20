@@ -19,14 +19,14 @@ void selection_sort(int *array, size_t size)
 		return;
 	for (; i < size; i++)
 	{
-		smallest = i;
+		smallest = i; /* set current as minimum */
 		swap =  malloc(sizeof(int) * 1);
 		*swap = *(array + i);
 		for (j = i + 1; j < size; j++)
 		{
 			if (*(array + j) < *(array + smallest))
 			{
-				smallest = j; 
+				smallest = j; /* update minimum index*/
 			}
 		}
 		if (i < smallest)
