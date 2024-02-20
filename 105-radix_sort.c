@@ -1,7 +1,13 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 /**
 * pow_10 - calculates a positive power of 10
 * @power: power of 10 to calculate
+*  name - Bruno  Owino
+*  email - brunookoth44@gmail.com
 * Return: final result
 */
 unsigned int pow_10(unsigned int power)
