@@ -1,8 +1,14 @@
 #include "sort.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 /**
 * counting_sort - counting sort algorithm
 * @array: array to be sorted
+* name - Bruno  Owino
+* email - brunookoth44@gmail.com
 * @size: size of the array to be sorted
 */
 void counting_sort(int *array, size_t size)
